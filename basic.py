@@ -12,7 +12,7 @@ run = True
 while run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-          run = False
-          sys.exit()  # Optional but preferable to immediately exit
+            run = False
+            sys.exit()  # Optional but preferable to immediately exit
 
     pygame.display.update()
