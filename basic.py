@@ -15,4 +15,4 @@ while run:
           run = False
           sys.exit()  # Optional but preferable to immediately exit
 
-      pygame.display.update()
+    pygame.display.update()
